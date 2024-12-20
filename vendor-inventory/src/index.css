@@ -1,0 +1,139 @@
+.ecommerce-home .hero-section {
+    background: url('/images/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+  }
+  
+  .ecommerce-home .categories-section .card {
+    transition: transform 0.3s;
+  }
+  
+  .ecommerce-home .categories-section .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .ecommerce-home .featured-products .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .ecommerce-home .featured-products .card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ecommerce-home .cta-section {
+    background: linear-gradient(to right, #28a745, #218838);
+    color: white;
+  }
+  .shop-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .categories-section .list-group-item {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .categories-section .list-group-item:hover {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .products-section .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .products-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: white;
+  }
+  
+  .pagination .page-item .page-link {
+    cursor: pointer;
+  }
+    
+/* Example CSS */
+
+.login-image {
+  background-color: #eaeaea;
+}
+
+.login-form {
+  background-color: #ffffff;
+}
+
+.card {
+  border-radius: 8px;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+/* VendorLayout Styles */
+.sidebar {
+  width: 350px; /* Fixed width for the sidebar */
+  background-color: #343a40; /* Dark background for sidebar */
+  color: #fff; /* White text in the sidebar */
+  height: 100vh; /* Full viewport height */
+  position: fixed; /* Fix the sidebar in place */
+  top: 0;
+  left: 0;
+  padding-top: 20px; /* Add some top padding */
+}
+
+.main-content {
+  background-color: #f8f9fa; /* Light background for the main content */
+  height: 100vh; /* Full height of the viewport */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+/* Optional: Customize Sidebar Links */
+.sidebar a {
+  color: #fff; /* White text for links */
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  background-color: #495057; /* Hover effect on sidebar links */
+}
+/* Footer Styling (it will now stick to the bottom) */
+.footerVendor {
+  margin-top: auto; /* Push footer to the bottom */
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #343a40; /* Dark footer background */
+  color: white; /* White text color */
+  padding: 20px 0; /* Some padding */
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.vendor-orders-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #28a745; /* Custom green color */
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-transform: uppercase; /* Make the text uppercase */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+
